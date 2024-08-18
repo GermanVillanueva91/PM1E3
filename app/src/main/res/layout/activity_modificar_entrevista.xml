@@ -54,8 +54,9 @@
             android:id="@+id/btnSeleccionarImagen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Actualizar Imagen"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#853939"
+            android:text="Actualizar Imagen" />
 
         <TextView
             android:layout_width="match_parent"
@@ -68,32 +69,36 @@
             android:id="@+id/btnSeleccionarAudio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Actualizar Audio"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#853939"
+            android:text="Actualizar Audio" />
 
         <Button
             android:id="@+id/btnGrabarAudio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Grabar Audio"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#853939"
+            android:text="Grabar Audio" />
 
         <Button
             android:id="@+id/btnGuardarEntrevista"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Actualizar Entrevista"
             android:layout_marginTop="16dp"
             android:background="@color/colorPrimary"
-            android:textColor="@android:color/white"/>
+            android:backgroundTint="#853939"
+            android:text="Actualizar Entrevista"
+            android:textColor="@android:color/white" />
 
         <Button
             android:id="@+id/btnEliminar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Eliminar Entrevista"
             android:layout_marginTop="8dp"
             android:background="@color/colorAccent"
-            android:textColor="@android:color/white"/>
+            android:backgroundTint="#853939"
+            android:text="Eliminar Entrevista"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 </ScrollView>
